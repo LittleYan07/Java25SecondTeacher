@@ -68,6 +68,56 @@ public class App {
         boolean lessThan = (a < b);
         System.out.println(lessThan);
 
+        // <=
+        boolean lessThanOrEqual = (a <= b);
+        System.out.println(lessThanOrEqual);
+
+        /////////////////////////////////////////////
+        
+        // if else
+
+        if(lessThanOrEqual) {
+            System.out.println("a 確實 <= b");
+        }
+        else {
+            System.out.println("a 沒有 <= b");
+        }
+
+        /////////////////////////////////////////////
+
+        if(a == 2) {
+            System.out.println("a : 2");
+        }
+        else if(a == 3) {
+            System.out.println("a : 3");
+        }
+        else if(a == 4) {
+            System.out.println("a : 4");
+        }
+        else {
+            System.out.println("a 為2,3,4以外的數字");
+        }
+
+        /////////////////////////////////////////////
+        //if...else...
+
+        String min = (a < b) ? "A < B" : "B < A";
+        //如果(a<b)為true min=A<B ， (a<b)為false min=B<A
+        System.out.println(min); 
+
+        //一個陣列裡有隨機7個數字，按照數字排大小 (if else)
+
+
+        /////////////////////////////////////////////
+        
+        //for 迴圈
+        for(int index = 0; index < 10; index++) {
+            System.out.println(index);
+        }
+
+
+
+
 
 
     }
