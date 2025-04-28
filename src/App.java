@@ -74,6 +74,24 @@ public class App {
         one = one + 2;
         System.out.println(one); */
 
+        /////////////////////////////////////////////
+        int score = 61;
+        if(score >= 90) {
+            System.out.println("超棒");
+        }
+        else if(score >= 80 && score < 90) {
+                System.out.println("很好");
+        }
+        else if(score == 60 && score < 80) {
+                System.out.println("好");
+        }
+        else {
+            System.out.println("OK");
+        }
+
+        
+
+
         }
     }
 

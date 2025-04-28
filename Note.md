@@ -56,4 +56,50 @@ else {
 
 //////////////////////////////////////
 
+(2) else if
 
+if (條件1) {
+             條件1成立時執行的程式碼
+}
+else if (條件2) {
+             條件2成立時執行的程式碼
+}
+else {
+     條件1跟條件2都不成立時執行的程式碼
+}
+
+
+int a = 2;
+
+if(a == 2) {
+        System.out.println("a : 2");
+}
+else if(a == 3) {
+        System.out.println("a : 3");
+}
+else if(a == 4) {
+        System.out.println("a : 4");
+}
+else {
+      System.out.println("a 為2,3,4以外的數字");
+}
+
+String[] results = {
+  "a : 2",
+  "a : 3",
+  "a : 4",
+}
+System.out.println(results);
+
+//////////////////////////////////////
+
+* 簡化if else 寫法
+* (條件) ? 條件成立時執行的程式碼 : 條件不成立時執行的程式碼
+
+// int a = 2;
+// int b = 3;
+
+// String min = (a < b) ?  "A < B" :  "B > A";
+// System.out.println(min);
+
+//////////////////////////////////////
