@@ -39,7 +39,7 @@ public class App {
         int product = a * b;
         System.out.println(product);
         
-        //除法取整數
+        //除法取整數 (分母不為0)
         int quotiend1 = a / b;
         System.out.println(quotiend1);
 
@@ -56,9 +56,15 @@ public class App {
         boolean isEqual = (a == b);
         System.out.println(isEqual);
 
-        // !=
+        // !=  (反轉)
         boolean isNotEqual = (a != b);
         System.out.println(isNotEqual);
+
+        // +=  (加法後再賦值)
+        int one = 5;
+        one += 2;
+        one = one + 2;
+        System.out.println(one);
 
         // >
         boolean greaterThan = (a > b);
