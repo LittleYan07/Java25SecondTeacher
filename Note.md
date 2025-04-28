@@ -24,10 +24,12 @@ boolean[] b1 = {true, false};
 String[] students = {"教室A", "教室B", "教室C"};
 System.out.println(classrooms[1]);
 
+//////////////////////////////////////
 
 2.控制和迴圈
 
 (1)條件式
+
 if (條件) {
           條件成立時執行的程式碼
 }
@@ -47,6 +49,7 @@ else {
 }
 
 //////////////////////////////////////
+
 if((a == 2)) && ((b == 3)) {
   System.out.println(x:"條件成立");
 }
@@ -103,3 +106,34 @@ System.out.println(results);
 // System.out.println(min);
 
 //////////////////////////////////////
+
+(3)迴圈
+* for 迴圈
+* for (初始值; 進入迴圈條件; 增量/減量) {
+       條件成立時執行的程式碼
+}
+
+// for(int index = 0; index <= 10; index ++) {
+//     System.out.println(index);
+}
+
+* for 迴圈 將array所有元素印出來範例
+* 元素長度可以用 array.length 取得
+* 可用Debug 觀察 index 的變化
+
+//////////////////////////////////////
+
+* for issue
+* class生成object  
+* Key Value
+  {
+      "name": "t1",
+      "age": 14
+  },
+  {
+      "name": "t2",
+      "age": 17
+  },
+
+  {"t1", "t2"}
+  {14, 17}

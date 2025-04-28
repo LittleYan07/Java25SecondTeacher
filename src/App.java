@@ -89,6 +89,101 @@ public class App {
             System.out.println("OK");
         }
 
+        /////////////////////////////////////////////
+        /// 九九乘法
+        for(int x = 1; x <= 9; x ++) {
+            for(int y = 1; y <= 9; y ++){
+                System.out.println(x + "x" + y + "=" + x*y + "" );              
+            }
+        }
+
+        //扣除重複
+        for(int x = 1; x <= 9; x ++) {
+            for(int y = 1; y <= 9; y ++){
+                if(x != y ){
+                    System.out.println(x + "x" + y + "=" + x*y + "" );
+                }                              
+            }
+        }
+
+        //金字塔
+        //   *
+        //  ***
+        // *****
+        //*******
+        int ln = 7;
+        for(int x = 1; x <= ln; x ++) {    //最外圍印行數
+
+            //先印空白
+            for(int blank = 1; blank <= ln - x; blank ++){
+                System.out.print(" ");              
+            }
+
+            //再印星星
+            for(int star = 1; star <= (2*x)-1; star ++){
+                System.out.print("*");              
+            }
+            System.out.println(" ");
+        }
+
+        /////////////////////////////////////////////
+        //從1~100
+        //遇到3的倍數輸出"Fizz"
+        //遇到5的倍數輸出"Buzz"
+        //遇到15的倍數輸出"FizzBuzz"
+        //其他輸出正常數字
+
+        for(int i = 1; i <= 100; i ++) {
+            if((i % 15) == 0){                      //有優先級，要先寫15 (不能先寫3跟5)
+                System.out.println("FizzBuzz");              
+            }
+            else if((i % 5) == 0){
+                System.out.println("Buzz");              
+            }
+            else if((i % 3) == 0){
+                System.out.println("Fizz");              
+            }
+            else {
+                System.out.println("i");              
+            }
+        }
+
+        /////////////////////////////////////////////
+        //加總後印出
+        int totalsum = 0;
+        
+        int[] numbers = {7, 22, 89, 55, 88};
+        //for(int index = 0; index < numbers.length; index ++)
+
+        for(int index = 0; index <= numbers.length-1; index ++) {
+            totalsum = totalsum + bingo[index];            
+        }
+
+        System.out.println(totalsum);
+
+        /////////////////////////////////////////////
+        
+        int max = 0;
+        
+        int[] number1 = {7, 22, 89, 55, 88};
+        for(int index = 0; index <= number1.length-1; index ++) {
+            if(number1[index] > max){
+                max = number1[index];
+            }            
+        }
+
+        System.out.println(max);
+
+        /////////////////////////////////////////////
+        
+        
+
+
+
+
+
+
+
         
 
 
