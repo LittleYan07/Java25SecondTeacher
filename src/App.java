@@ -48,8 +48,9 @@ public class App {
         int remainder = a % b;
         System.out.println(remainder);
 
+        
         /////////////////////////////////////////////
-
+        
         /* ==  (等於)
         boolean isEqual = (a == b);
         System.out.println(isEqual); */
