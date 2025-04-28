@@ -26,3 +26,37 @@ System.out.println(classrooms[1]);
 
 
 2. 基本邏輯運算
+
+        
+        // if else
+ 
+        if(lessThanOrEqual) {
+          } 
+        else {
+          } 
+
+        / 
+        if(a == 2) {
+            System.out.println("a : 2");
+        }
+        else if(a == 3) {
+             System.out.println("a : 3");
+        }
+        else if(a == 4) {
+             System.out.println("a : 4");
+        }
+
+             System.out.println("a 為2,3,4
+
+        /////////////////////////////////////////////
+
+        String min = (a < b) ? "A < B" : "B < A";
+        //如果(a<b)為true min=A<B ， (a<b)為false min=B<A
+        
+
+        //for 迴圈
+        for(int index = 0; index < 10; index++) {
+            System.out.println(index);
+        }
+            }
+        }
