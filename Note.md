@@ -121,9 +121,35 @@ System.out.println(results);
 * 元素長度可以用 array.length 取得
 * 可用Debug 觀察 index 的變化
 
+
+* for 迴圈 減量範例
+* 這裡的 index 會從10開始，然後每次減1，直到 index <= 0 為止
+* 可用Debug 觀察 index 的變化
+// for(int index = 10; index > 0; index --) {
+//     System.out.println(index);
+// }
+
+
+* for each 迴圈
+* for (資料型態 單一變數名稱 : 陣列變數名稱) {
+*           條件成立時執行的程式碼
+* }
+
+// String[] students = { "A1", "A2", "A3" };
+// for (String stu : students) {
+//     System.out.println(stu);
+// }
+
+等於以下寫法:
+
+// String[] students = { "A1", "A2", "A3" };
+// for (int index = 0; index <= students.length - 1; index++) {
+//     System.out.println(students[index]);
+// }
+
 //////////////////////////////////////
 
-* for issue
+* for issue (簡易寫法，類似從數據資料中抽出部分資料做成表格)
 * class生成object  
 * Key Value
   {
@@ -137,3 +163,14 @@ System.out.println(results);
 
   {"t1", "t2"}
   {14, 17}
+
+public static void main(String[] args) throws Exception {
+  String[] names = { "A1", "A2", "A3" };
+  int[] age = { "12", "17", "24" };
+
+  for (int index = 0; index <= names.length - 1; index++) {
+       System.out.println(students[index]);
+
+  }
+
+}
