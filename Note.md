@@ -25,4 +25,35 @@ String[] students = {"教室A", "教室B", "教室C"};
 System.out.println(classrooms[1]);
 
 
-2.
+2.控制和迴圈
+
+(1)條件式
+if (條件) {
+          條件成立時執行的程式碼
+}
+else {
+     條件不成立時執行的程式碼
+}
+
+//////////////////////////////////////
+int a = 2;
+int b = 3;
+
+if((a <= b)) {
+  System.out.println("a 的確 <= b");
+}
+else {
+  System.out.println("a 沒有 <= b");
+}
+
+//////////////////////////////////////
+if((a == 2)) && ((b == 3)) {
+  System.out.println(x:"條件成立");
+}
+else {
+  System.out.println(x:"條件不成立");
+}
+
+//////////////////////////////////////
+
+
