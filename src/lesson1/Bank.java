@@ -1,3 +1,5 @@
+package lesson1;
+
 public class Bank {
     private String account; // private 私人保護(封裝)
     private int balance1 = 0;

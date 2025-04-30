@@ -1,3 +1,5 @@
+package lesson1;
+
 public class DemoBank {
     public static void main(String[] args) {
         //開戶並存款1000

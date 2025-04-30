@@ -1,3 +1,5 @@
+package lesson1;
+
 public class Printer {
     public static void main(String[] args) {
         //多載介紹

@@ -1,3 +1,5 @@
+package lesson1;
+
 public class DemoCar {
     public static void main(String[] args) {
         

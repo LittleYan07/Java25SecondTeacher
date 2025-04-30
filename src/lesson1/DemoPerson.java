@@ -1,3 +1,5 @@
+package lesson1;
+
 public class DemoPerson {
 
     //屬性

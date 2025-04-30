@@ -1,3 +1,5 @@
+package lesson1;
+
 //類別 屬性&方法
 public class Car {
     //屬性

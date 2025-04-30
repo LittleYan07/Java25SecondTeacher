@@ -1,3 +1,5 @@
+package lesson1;
+
 public class BankAccount {
     private String account; // private 私人保護(封裝)
     private int balance1 = 0;
@@ -16,7 +18,7 @@ public class BankAccount {
             System.out.println("您的帳號輸入錯誤，無法繼續執行此交易。");
         }
         else {
-            this.account = account;
+            /* this.account = account; */   //需要進行修改
         } 
     }
 
